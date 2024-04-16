@@ -38,9 +38,9 @@ services:
             - .docker/db/sql:/docker-entrypoint-initdb.d
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: refactorian
-            MYSQL_USER: refactorian
-            MYSQL_PASSWORD: refactorian
+            MYSQL_DATABASE: binhhc
+            MYSQL_USER: binhhc
+            MYSQL_PASSWORD: binhhc
 
     ####################################################################################################
     # phpMyAdmin
@@ -117,9 +117,9 @@ services:
     #         - .docker/db/data:/var/lib/postgresql/data
     #         - .docker/db/sql:/docker-entrypoint-initdb.d
     #     environment:
-    #         - POSTGRES_USER=refactorian
-    #         - POSTGRES_PASSWORD=refactorian
-    #         - POSTGRES_DB=refactorian
+    #         - POSTGRES_USER=binhhc
+    #         - POSTGRES_PASSWORD=binhhc
+    #         - POSTGRES_DB=binhhc
 
     ####################################################################################################
     # pgAdmin
